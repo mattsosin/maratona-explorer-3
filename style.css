@@ -1,0 +1,84 @@
+*{ /*todos os espaços e preenchimentos*/
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    background-color: #FFEDD5;
+    font-family:'Roboto', sans-serif;
+  
+  }
+  
+  ul{
+    list-style:none;
+  }
+  
+  header{
+      padding:35px 0; /*em cima e embaixo 32 e laterais 0*/
+      text-align:center;
+      
+    }
+  
+    section,header{
+      max-width:300px;
+      margin:0 auto;/* 0 em cima e embaixo e auto nas laterais*/
+     
+    }
+  
+    header h1{
+      margin-bottom:4px;
+      
+    }
+  
+    header h1 span{
+      color:#995000;
+      
+    }
+  
+    section{
+      margin-bottom:24px;
+      
+    }
+  
+  section h2{
+    background-color: #FED7AA;
+    padding:8px 16px;
+    text-align:center;
+    margin-bottom:24px; /*espaço entre o h2 e o waffle doce*/
+    font-size:18px;
+    
+  }
+  
+  ul li{
+     margin-bottom:16px;
+     display:flex; /*pega os elementos filhos e bota um do lado do outro*/
+     
+  }
+  
+  /*quer dizer:procura dentro do li uma classe details*/
+  li .details{
+    max-width:240px;
+    font-size:16px;
+  
+  }
+  
+  .description{
+    margin-bottom:4px;
+    color:rgba(0,0,0,0.7); /*o último número é a porcentagem da cor. enquanto menor, mais fraco*/
+    font-size:14px;
+    line-height:21px;
+  }
+  
+  
+  /*FONTS*/
+  h1, h2, h3, .price{
+    font-family:Roboto serif;
+    text-transform:uppercase;
+    color: #2D2C2A;
+  }
+  
+  header p{
+    color:rgba(0,0,0,0.7); 
+    font-size:14px;
+    line-height:21px;
+  }
